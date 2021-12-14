@@ -1,0 +1,40 @@
+p {
+    padding:0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+body {    
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    
+}
+
+main {
+    flex-grow: 1;
+    padding: 1rem .5rem;
+}
+
+.header > a {
+    text-decoration: none;
+    color: #ccc;
+    margin-right: .5rem;
+}
+
+.footer {
+    border-top: 1px solid #ccc;
+    padding: 2rem 0;
+}
+
+img {
+    width: 250px;
+}
